@@ -1,0 +1,127 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="INSOFE">
+<meta name="author" content="">
+<link rel="icon" href="/static/common/icons/favicon.ico">
+<link rel="mask-icon" href="/static/common/icons/wb.svg" color="#5E932E">
+
+<title>INSOFE - Course unavailable</title>
+
+<!-- Bootstrap -->
+<link href="/static/common/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/common/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="/static/common/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- INGInious Style -->
+<link href="/static/webapp/css/INGInious.css" rel="stylesheet">
+
+<!-- Codemirror Style -->
+<link href="/static/common/css/codemirror.css" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/static/common/icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/static/common/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/common/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/common/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/common/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/common/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/common/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/common/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/common/icons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/static/common/icons/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-TileImage" content="/static/common/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/static/common/icons/browserconfig.xml">
+
+<script src="/static/webapp/js/all-minified.js"></script>
+<script type="text/javascript">
+    CodeMirror.modeURL = "/static/common/js/codemirror/mode/%N/%N.js";
+</script>
+
+
+
+
+</head>
+
+<body role="document">
+    <div id="wrapper">
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index"><img src="/static/common/images/header.png" alt="logo"/> INSOFE</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><p class="navbar-text">Logged in as Subhanandh Tamilarasu</p></li>
+                            <li><a href="/index?logoff" id="logoff_button" class="navbar-link"><i class="fa fa-sign-out"></i> Log off</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="main_container" class="container-fluid" role="main">
+                <div id="content" class="col-xs-12">
+                
+
+
+
+
+
+<img src="/static/common/images/logo_maintenance.png" style="margin:auto; display:block;"/>
+<div class="alert alert-warning" role="alert" style="text-align: center;">
+    <b>Error 403</b> You are not registered to this course.
+</div>
+
+                <div class="footer_push"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header" style="width: 100%">
+                    <p class="navbar-text">
+                        &copy; 2017 - INSOFE Grader -
+                        <a target="_blank" href="http://www.insofe.edu.in" class="navbar-link">
+                           International School of Engineering 
+                        </a>
+                    </p>
+                    <div class="navbar-right">
+                        <p class="navbar-text">
+                            <a href="/queue" class="navbar-link">Status</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+</body>
+</html>
